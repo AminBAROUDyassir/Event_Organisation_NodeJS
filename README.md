@@ -3,7 +3,7 @@
 you need to install mongodb , and create a db with a selected name
 after that you need to change the value of DB_CONNECTION_STRING in .env file
 
-example : my db has the name of organiser , and my mongodb is installed in local instance
+example : my db has the name of "organiser" , and my mongodb is installed in local instance
 
 ```bash
 DB_CONNECTION_STRING=mongodb://localhost:27017/organiser
@@ -42,7 +42,7 @@ yarn watch
 ```
 the server will get started with the following screen 
 
-```zsh
+```bash
 yarn run v1.22.5
 $ nodemon app.js
 [nodemon] 2.0.7
